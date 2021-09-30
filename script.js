@@ -25,7 +25,9 @@ function calculateProfitLoss(initial, quantity, current){
         body.style.transition = "background-color 4s ease-out";
         body.style.backgroundColor = "green";
     } else {
-
+        showOutput(`You neither lost nor gained anything`);
+        body.style.transition = "background-color 4s ease-out";
+        body.style.backgroundColor = "rgb(235, 221, 26)";
     }
 }
 
