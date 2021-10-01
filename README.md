@@ -1,0 +1,6 @@
+# Profit-loss
+mark 14: stock purchase profit or loss
+
+Built using: HTML5, CSS3 and Vanilla JS.
+
+A website to calculate profit/loss of your stocks. Enter the amount invested while buying a stock and the current price of the stock and get loss/profit amount along with its percent.
