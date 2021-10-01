@@ -10,8 +10,6 @@ function showOutput(message){
 }
 
 function calculateProfitLoss(initial, quantity, current){
-    console.log(initial);
-    console.log(current);
     if(initial > current){
         const loss = initial-current;
         const lossPercent = ((loss/initial)*100).toFixed(2);
