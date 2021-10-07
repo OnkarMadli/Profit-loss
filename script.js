@@ -10,8 +10,8 @@ function showOutput(message){
 }
 
 function calculateProfitLoss(initial, quantity, current){
-    if(initial<1 || current<1){
-        showOutput(`Initial Price/Current price cannot be 0 or in negatives`);
+    if(initial<1 || current<1 || quantity<1){
+        showOutput(`Values cannot be 0 or in negatives`);
         body.style.transition = "background-color 4s ease-out";
         body.style.backgroundColor = "rgb(235, 221, 26)";
     } else {
